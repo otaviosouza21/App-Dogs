@@ -2,7 +2,7 @@
   "name": "app-dogs",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://otaviosouza21.github.io/App-Dogs/",
+  "homepage": "https://otaviosouza21.github.io/app-dogs/",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,7 +10,7 @@
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "prop-types": "^15.8.1",
